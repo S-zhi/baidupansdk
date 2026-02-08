@@ -1,8 +1,6 @@
 package baidupanSDK
 
 import (
-	"baiduNetdisk/baidupan_SDK/tool"
-	openapi "baiduNetdisk/openxpanapi"
 	"context"
 	"crypto/md5"
 	"encoding/hex"
@@ -11,6 +9,9 @@ import (
 	"io"
 	"log"
 	"os"
+
+	"github.com/S-zhi/baidupansdk/baidupanSDK/tool"
+	openapi "github.com/S-zhi/baidupansdk/openxpanapi"
 )
 
 var client = *(openapi.NewAPIClient(openapi.NewConfiguration()))

@@ -1,7 +1,7 @@
 package demo
 
 import (
-	BaiduPlus "baiduNetdisk/baidupan_SDK"
+	BaiduPlus "github.com/S-zhi/baidupansdk/baidupanSDK"
 )
 
 // initByQueryCodeExample 通过代码初始化

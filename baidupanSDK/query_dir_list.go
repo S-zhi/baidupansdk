@@ -1,9 +1,9 @@
 package baidupanSDK
 
 import (
-	openapi "baiduNetdisk/openxpanapi"
 	"encoding/json"
 	"fmt"
+	openapi "github.com/S-zhi/baidupansdk/openxpanapi"
 )
 
 // FileListResponse 文件列表响应结构

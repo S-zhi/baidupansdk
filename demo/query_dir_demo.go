@@ -1,7 +1,7 @@
 package demo
 
 import (
-	baidupanPlus "baiduNetdisk/baidupan_SDK"
+	baidupanPlus "baiduNetdisk/baidupanSDK"
 	"fmt"
 	"log"
 )
