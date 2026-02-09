@@ -1,8 +1,9 @@
 package demo
 
 import (
-	baidupanSDK "baiduNetdisk/baidupan_SDK"
 	"fmt"
+
+	baidupanSDK "github.com/S-zhi/baidupansdk/baidupanSDK"
 )
 
 func DownloadExample() {
