@@ -1,14 +1,14 @@
 package demo
 
 import (
-	BaiduPlus "github.com/S-zhi/baidupansdk/baidupansdk"
+	BaiduPlus "github.com/S-zhi/baidupansdk/baidupanplus"
 )
 
 // initByQueryCodeExample 通过代码初始化
 func initByQueryCodeExample() BaiduPlus.QueryDirConfig {
 	BaiduPlus.NewBasicConfig(ACCESS_TOKEN,
 		true,
-		"/Users/wenzhengfeng/code/go/baidupansdk/logs/baiduPanSDK.log")
+		"/Users/wenzhengfeng/code/go/baidupanplus/logs/baiduPanSDK.log")
 	return BaiduPlus.NewQueryDirConfig("/project/luckyProject/weights/", 100)
 }
 
@@ -16,8 +16,8 @@ func initByQueryCodeExample() BaiduPlus.QueryDirConfig {
 func initByUploadFileExample() BaiduPlus.UploadFileConfig {
 	BaiduPlus.NewBasicConfig(ACCESS_TOKEN,
 		true,
-		"/Users/wenzhengfeng/code/go/baidupansdk/logs/baiduPanSDK.log")
-	return BaiduPlus.NewUploadFileConfig("/Users/wenzhengfeng/code/go/baidupansdk/demo/test_2_8.txt",
+		"/Users/wenzhengfeng/code/go/baidupanplus/logs/baiduPanSDK.log")
+	return BaiduPlus.NewUploadFileConfig("/Users/wenzhengfeng/code/go/baidupanplus/demo/test_2_8.txt",
 		"/project/luckyProject/weights/test_2_8.txt")
 }
 
@@ -25,7 +25,7 @@ func initByUploadFileExample() BaiduPlus.UploadFileConfig {
 func initByDownloadFileExample() BaiduPlus.DownloadFileConfig {
 	BaiduPlus.NewBasicConfig(ACCESS_TOKEN,
 		true,
-		"/Users/wenzhengfeng/code/go/baidupansdk/logs/baiduPanSDK.log")
-	return BaiduPlus.NewDownloadFileConfig("/Users/wenzhengfeng/code/go/baidupansdk/demo/test_2_8_1.txt",
+		"/Users/wenzhengfeng/code/go/baidupanplus/logs/baiduPanSDK.log")
+	return BaiduPlus.NewDownloadFileConfig("/Users/wenzhengfeng/code/go/baidupanplus/demo/test_2_8_1.txt",
 		"/project/luckyProject/weights/test_2_8.txt")
 }

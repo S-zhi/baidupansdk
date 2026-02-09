@@ -1,4 +1,4 @@
-package baidupansdk
+package baidupanplus
 
 import (
 	"fmt"

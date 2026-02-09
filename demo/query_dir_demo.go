@@ -1,9 +1,10 @@
 package demo
 
 import (
-	baidupanPlus "baidupansdk/baidupansdk"
 	"fmt"
 	"log"
+
+	baidupanPlus "github.com/S-zhi/baidupansdk/baidupanplus"
 )
 
 func QueryDirExample() {
