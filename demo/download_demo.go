@@ -3,7 +3,9 @@ package demo
 import (
 	"fmt"
 
-	baidupanSDK "github.com/S-zhi/baidupansdk/baidupanSDK"
+	//baidupan "github.com/S-zhi/baidupansdk/baidupansdk"
+
+	"github.com/S-zhi/baidupansdk/baidupansdk"
 )
 
 func DownloadExample() {
@@ -12,7 +14,7 @@ func DownloadExample() {
 	downloadFileConfig := initByDownloadFileExample()
 
 	// 使用配置进行下载
-	err := baidupanSDK.DownloadFileWithConfig(downloadFileConfig)
+	err := baidupansdk.DownloadFileWithConfig(downloadFileConfig)
 
 	if err != nil {
 		fmt.Printf("下载失败: %v\n", err)

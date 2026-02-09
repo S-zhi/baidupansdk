@@ -1,4 +1,4 @@
-package baidupanSDK
+package baidupansdk
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/S-zhi/baidupansdk/baidupanSDK/tool"
+	"github.com/S-zhi/baidupansdk/baidupansdk/tool"
 	openapi "github.com/S-zhi/baidupansdk/openxpanapi"
 )
 

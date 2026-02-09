@@ -1,7 +1,7 @@
 package demo
 
 import (
-	userApi "baiduNetdisk/baidupanSDK"
+	userApi "baidupansdk/baidupansdk"
 	"log"
 )
 

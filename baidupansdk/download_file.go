@@ -1,4 +1,4 @@
-package baidupanSDK
+package baidupansdk
 
 import (
 	"encoding/json"
@@ -37,9 +37,9 @@ func GetFileMetas(accessToken string, fsids []int64) (*FileMetasResponse, error)
 		Fsids(fsidsStr).
 		Dlink("1") // 必须设置为 "1" 才会返回下载链接
 
-	jsonStr, response, err := client.MultimediafileApi.XpanmultimediafilemetasExecute(apiXpanmetasRequest)
+	jsonStr, _, err := client.MultimediafileApi.XpanmultimediafilemetasExecute(apiXpanmetasRequest)
 	if err != nil {
-		Error(fmt.Sprintf("Failed to execute Xpanmultimediafilemetas: %v, status: %d", err, response.StatusCode))
+		Error(fmt.Sprintf("Failed to execute Xpanmultimediafilemetas: %v", err))
 		return nil, err
 	}
 

@@ -144,7 +144,7 @@ func NewQueryDirConfig(dir string, limit int) QueryDirConfig
 // 创建配置
 queryConfig := baidupanSDK.NewQueryDirConfig("/apps/myapp", 100)
 // 调用查询 (假设 QueryDir 是公开的)
-// resp, err := baidupanSDK.QueryDir(&queryConfig)
+// resp, err := baidupansdk.QueryDir(&queryConfig)
 ```
 
 ---

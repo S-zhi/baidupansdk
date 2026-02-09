@@ -1,4 +1,4 @@
-package baidupanSDK
+package baidupansdk
 
 // config.go
 import (

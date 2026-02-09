@@ -1,8 +1,9 @@
-package baidupanSDK
+package baidupansdk
 
 import (
 	"encoding/json"
 	"fmt"
+
 	openapi "github.com/S-zhi/baidupansdk/openxpanapi"
 )
 
@@ -14,7 +15,7 @@ type FileListResponse struct {
 	RequestId int64                        `json:"request_id"`
 }
 
-// QueryDir 获取文件列表
+// QueryDirWithConfig 获取文件列表
 // 参数:
 //
 //	accessToken: 访问令牌
